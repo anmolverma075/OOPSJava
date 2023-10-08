@@ -6,6 +6,11 @@ public class Box {
     double w;
     double weight;
 
+
+    static void greeting() {
+        System.out.println("Hey I am in Box class , Greetings!");
+    }
+
     //super(); Object class
     Box (){
         this.h = -1;
