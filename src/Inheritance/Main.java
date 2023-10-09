@@ -25,5 +25,14 @@ public class Main {
 
         Box box = new BoxWeight();
         box.greeting();  //  You can inherit but you cannot override .
+
+        BoxWeight box1 = new BoxWeight();
+        box1.greeting();
+
+        BoxWeight box3 = new BoxPrice();
+        box3.greeting();
+
+        BoxWeight.greeting();
+        BoxPrice.greeting();
     }
 }

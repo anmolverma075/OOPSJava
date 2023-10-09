@@ -3,6 +3,10 @@ package Inheritance;
 public class BoxPrice extends BoxWeight{
     double price;
 
+     static void greeting() {
+        System.out.println("Hey I am in BoxPrice class , Greetings!");
+    }
+
     BoxPrice(){
         super();
         this.price = -1;
