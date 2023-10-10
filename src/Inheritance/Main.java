@@ -32,7 +32,7 @@ public class Main {
         BoxWeight box3 = new BoxPrice();
         box3.greeting();
 
-        BoxWeight.greeting();
+        Box.greeting();
         BoxPrice.greeting();
     }
 }

@@ -11,6 +11,9 @@ public class Box {
         System.out.println("Hey I am in Box class , Greetings!");
     }
 
+
+    BoxWeight obj = new BoxWeight();
+
     //super(); Object class
     Box (){
         this.h = -1;
@@ -36,6 +39,7 @@ public class Box {
         this.l = old.l;
         this.w = old.w;
     }
+
 
     public void information(){
         System.out.println("Running the box");

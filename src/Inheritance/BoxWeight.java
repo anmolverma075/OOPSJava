@@ -7,6 +7,7 @@ public class BoxWeight extends Box {
         this.weight = -1;
     }
 
+//    @Override
     static void greeting() {
         System.out.println("Hey I am in BoxWeight class , Greetings!");
     }
@@ -15,6 +16,7 @@ public class BoxWeight extends Box {
         super(other);
         weight = other.weight;
     }
+
     //above statement is same as  "Box boxx = new BoxWeight(12, 11 , 15 , 15);"
 
     public BoxWeight(double l , double w , double h , double weight){
